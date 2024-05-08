@@ -2,3 +2,5 @@ streamlit
 numpy
 pandas
 tensorflow
+pickleshare
+scikit-learn
