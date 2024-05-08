@@ -18,7 +18,7 @@ st.set_page_config(
 # Define the paths to the PCA and CNN models relative to the script directory
 pca_path = ("pca_model.pkl")
 cnn_path = ("CNN_model.h5")
-imgpath = os.path.join(script_dir, "eeg.jpg")
+imgpath = ( "eeg.jpg")
 def load_pca_model():
     with open(pca_path, 'rb') as f:
         pca_model = pickle.load(f)
