@@ -78,7 +78,7 @@ def main():
             else:
                 noadhd+=1
                 
-         if 'p' in csv_file.name:
+        if 'p' in csv_file.name:
              adhd+=noadhd
     
         result = "Person detected with ADHD" if adhd > noadhd else "No detection of ADHD"
