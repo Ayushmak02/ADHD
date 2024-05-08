@@ -3,9 +3,7 @@ import pickle
 import streamlit as st
 import pandas as pd
 import numpy as np
-#from sklearn.decomposition import PCA
 import tensorflow as tf
-import os
 
 # Set Streamlit theme
 st.set_page_config(
@@ -19,8 +17,8 @@ st.set_page_config(
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Define the paths to the PCA and CNN models relative to the script directory
-pca_path = os.path.join(script_dir, "pca_model.pkl")
-cnn_path = os.path.join(script_dir, "CNN_model.h5")
+pca_path = ("pca_model.pkl")
+cnn_path = ("CNN_model.h5")
 imgpath = os.path.join(script_dir, "eeg.jpg")
 def load_pca_model():
     with open(pca_path, 'rb') as f:
