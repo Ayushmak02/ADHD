@@ -13,8 +13,7 @@ st.set_page_config(
     initial_sidebar_state="auto",  # Auto-hide sidebar
 )
 
-# Get the absolute path to the directory of this script
-script_dir = os.path.dirname(os.path.abspath(__file__))
+
 
 # Define the paths to the PCA and CNN models relative to the script directory
 pca_path = ("pca_model.pkl")
