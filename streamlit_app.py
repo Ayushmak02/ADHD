@@ -37,7 +37,7 @@ def main():
     page_bg_img = f"""
 <style>
 [data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://i.postimg.cc/4xgNnkfX/Untitled-design.png");
+background-image: url("https://cdn.vectorstock.com/i/500p/67/74/abstract-blue-liquid-watercolor-background-pastel-vector-36476774.jpg");
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
